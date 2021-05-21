@@ -1,8 +1,8 @@
 module.exports = {
-  purge: ['./components/**/*.tsx', './pages/**/*.tsx'],
+  purge: ["./components/**/*.tsx", "./pages/**/*.tsx"],
   theme: {
     extend: {},
   },
   variants: {},
-  plugins: [],
-}
+  plugins: [require("daisyui")],
+};
