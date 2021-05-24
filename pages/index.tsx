@@ -8,8 +8,9 @@ export default function Home() {
         <title>Wassim Arfa</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <button className="btn btn-primary">DaisyUI Button</button>
+      <main className="">
+        <button className="btn btn-primary">DaisyUI Button</button>     
+      </main>
     </div>
   );
 }
